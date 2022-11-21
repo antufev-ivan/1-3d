@@ -162,20 +162,20 @@ margin: auto;
     }
 }
 
-.menu-button__decoration1 {
+.menu-button__decoration-second {
 
 
 }
 
 @media (min-width: 769px) {
-    .menu-button__decoration1 {
+    .menu-button__decoration-second {
 
         order: -1;
     }
 }
 
 @media (min-width: 1120px) {
-    .menu-button__decoration1 {
+    .menu-button__decoration-second {
 
 
     }
@@ -254,7 +254,17 @@ border-radius: 50%;
     background-position: 12px 10px ;
 }
 
+.menu-button__decoration {
+    background-color: #EAEAEA;
+    width: 2px;
+    height: 32px;
+}
 
+.menu-button__decoration-second{
+    background-color: #EAEAEA;
+    width: 2px;
+    height: 32px;
+}
 
 .menu-button__burger {
     order: -2;
